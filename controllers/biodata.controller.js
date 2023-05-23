@@ -42,7 +42,7 @@ module.exports = {
       //validasi menggunakan module fastest-validator
       const validate = v.validate(itemCreateObj, schema);
       if (validate.length > 0) {
-        res.status(400).json(response(400, "validasi gagal", validate));
+        res.status(400).json(response(400, "validation failed", validate));
         return;
       }
 
@@ -52,7 +52,7 @@ module.exports = {
       //response menggunakan helper response.formatter
       res
         .status(201)
-        .json(response(201, "berhasil menyimpan data", itemCreate));
+        .json(response(201, "success create data", itemCreate));
     } catch (err) {
       res.status(500).json(response(500, "internal server error", err));
       console.log(err);
