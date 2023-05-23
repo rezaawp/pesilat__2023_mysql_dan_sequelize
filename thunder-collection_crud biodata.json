@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "crud biodata",
+    "dateExported": "2023-05-23T12:44:18.767Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8bc41b50-7e10-48dd-b474-d14f709432de",
+            "colId": "53159b8e-4adc-4801-a3a5-507181a0e7a4",
+            "containerId": "",
+            "name": "create",
+            "url": "http://localhost:3000/api/biodata",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-23T12:40:51.382Z",
+            "modified": "2023-05-23T12:41:16.421Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nama\":\"T\",\n  \"tempat_lahir\":\"Karawang\",\n  \"tanggal_lahir\":\"2023-05-19\",\n  \"alamat\":\"Ini adalah alamat\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "f85d6719-7f4a-432d-9231-f05d957e0836",
+            "colId": "53159b8e-4adc-4801-a3a5-507181a0e7a4",
+            "containerId": "",
+            "name": "read",
+            "url": "http://localhost:3000/api/biodata",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-23T12:41:21.437Z",
+            "modified": "2023-05-23T12:41:40.770Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "7eb26a5c-a3e2-49bb-b557-29a9923899cc",
+            "colId": "53159b8e-4adc-4801-a3a5-507181a0e7a4",
+            "containerId": "",
+            "name": "read one",
+            "url": "http://localhost:3000/api/biodata/1",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2023-05-23T12:42:35.006Z",
+            "modified": "2023-05-23T12:42:44.450Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "0ee2569e-0d07-42f0-9993-dc0104378371",
+            "colId": "53159b8e-4adc-4801-a3a5-507181a0e7a4",
+            "containerId": "",
+            "name": "update",
+            "url": "http://localhost:3000/api/biodata/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-05-23T12:41:39.144Z",
+            "modified": "2023-05-23T12:42:10.364Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nama\":\"Reza\",\n  \"tempat_lahir\":\"Karawang\",\n  \"tanggal_lahir\":\"2023-05-19\",\n  \"alamat\":\"Karawang, Jawa Barat\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "474794f8-eb78-48e1-be6d-f733e6eb58d4",
+            "colId": "53159b8e-4adc-4801-a3a5-507181a0e7a4",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:3000/api/biodata/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-05-23T12:42:18.949Z",
+            "modified": "2023-05-23T12:42:28.136Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
