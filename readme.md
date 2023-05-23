@@ -12,4 +12,4 @@ Clone repo ini untuk tugas API biodata
 - jalankan perintah `npm start` untuk menjalankan api
 
 ## Note
-Saya sudah menyediakan collection API untuk test API nya
+Saya sudah menyediakan collection API nya di repo ini. Nama file nya `thunder-collection_crud biodata.json`
