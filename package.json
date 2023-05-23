@@ -1,5 +1,5 @@
 {
-  "name": "coba-express-crud-jwt",
+  "name": "tugas pesilat sequelize",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
     "migrate:fresh --seed": "npx sequelize-cli db:migrate:undo:all && npm run migrate && npm run db:seed"
   },
   "keywords": [],
-  "author": "",
+  "author": "Reza Khoirul Wijaya Putra",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.3",
