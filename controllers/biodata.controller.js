@@ -3,7 +3,7 @@
 //import helper response formatter
 const { response } = require("../helpers/response.formatter");
 
-//import model admin
+//import model biodata 
 const { Biodata } = require("../models");
 
 //validasi
